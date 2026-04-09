@@ -1,1 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>NūrRing Legal</title>
+    <style>
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --text: #f5f7fb;
+        --muted: #b6becc;
+        --accent: #d4af37;
+        --border: #2a2f3a;
+        --link: #f0c95a;
+      }
 
+      * { box-sizing: border-box; }
+
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
+        line-height: 1.6;
+      }
+
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
+      }
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 28px;
+      }
+
+      h1 {
+        margin: 0 0 8px;
+        color: var(--accent);
+        font-size: 2rem;
+      }
+
+      p {
+        color: var(--muted);
+      }
+
+      .links {
+        display: grid;
+        gap: 16px;
+        margin-top: 28px;
+      }
+
+      a.link {
+        display: block;
+        text-decoration: none;
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 14px;
+        padding: 18px 20px;
+        background: #11141a;
+      }
+
+      a.link:hover {
+        border-color: var(--accent);
+      }
+
+      .small {
+        margin-top: 24px;
+        font-size: 0.95rem;
+        color: var(--muted);
+      }
+    </style>
+  </head>
+  <body>
+    <main class="wrap">
+      <section class="card">
+        <h1>NūrRing Legal</h1>
+        <p>
+          Public legal and account support pages for the NūrRing app.
+        </p>
+
+        <div class="links">
+          <a class="link" href="./privacy.html">Privacy Policy</a>
+          <a class="link" href="./delete-account.html">Account Deletion and Data Deletion</a>
+        </div>
+
+        <p class="small">
+          NūrRing is a dhikr tracking app with account features, reminders,
+          social features, Qibla tools, and optional Bluetooth ring support.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>
