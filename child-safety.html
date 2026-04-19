@@ -5,206 +5,147 @@
     <title>NūrRing – Child Safety Standards (CSAE)</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <style>
+      :root {
+        --bg: #0f1115;
+        --card: #171a21;
+        --text: #f5f7fb;
+        --muted: #b6becc;
+        --accent: #d4af37;
+        --border: #2a2f3a;
+        --link: #f0c95a;
+      }
+
+      * { box-sizing: border-box; }
+
       body {
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 32px 20px 64px;
-        font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
-          sans-serif;
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: var(--bg);
+        color: var(--text);
         line-height: 1.6;
-        background: #0f1113;
-        color: #f5f7fb;
       }
-      h1,
-      h2,
-      h3 {
-        color: #f5f7fb;
+
+      .wrap {
+        max-width: 860px;
+        margin: 0 auto;
+        padding: 48px 20px 72px;
       }
-      a {
-        color: #f0c95a;
+
+      .card {
+        background: var(--card);
+        border: 1px solid var(--border);
+        border-radius: 16px;
+        padding: 28px;
       }
-      section {
+
+      h1 {
+        margin: 0 0 8px;
+        color: var(--accent);
+        font-size: 2rem;
+      }
+
+      h2 {
         margin-top: 24px;
+        margin-bottom: 8px;
+        font-size: 1.1rem;
+        color: var(--text);
+      }
+
+      p {
+        color: var(--muted);
+      }
+
+      ul {
+        color: var(--muted);
+        padding-left: 20px;
+      }
+
+      a {
+        color: var(--link);
       }
     </style>
   </head>
   <body>
-    <h1>NūrRing Child Safety Standards (CSAE)</h1>
+    <main class="wrap">
+      <section class="card">
+        <h1>NūrRing Child Safety Standards (CSAE)</h1>
 
-    <p>
-      This page sets out the child safety standards for
-      <strong>NūrRing</strong> (the “App”), developed and published by
-      <strong>tomi ogunnorin</strong>. It is intended to comply with
-      Google Play’s
-      <a
-        href="https://support.google.com/googleplay/android-developer/answer/14747720"
-        target="_blank"
-        rel="noopener noreferrer"
-        >Child Safety Standards policy</a
-      >
-      and relevant child protection laws.
-    </p>
+        <p>
+          This page sets out the child safety standards for <strong>NūrRing</strong>
+          (the “App”). It is intended to comply with Google Play’s
+          <a
+            href="https://support.google.com/googleplay/android-developer/answer/14747720"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Child Safety Standards policy
+          </a>
+          and relevant child protection laws.
+        </p>
 
-    <section>
-      <h2>1. Zero tolerance for CSAE and CSAM</h2>
-      <p>
-        NūrRing has a <strong>zero‑tolerance policy</strong> towards
-        <strong>Child Sexual Abuse and Exploitation (CSAE)</strong> and
-        <strong>Child Sexual Abuse Material (CSAM)</strong>. Any content or
-        behaviour that sexually exploits, abuses, endangers, or targets
-        children is strictly prohibited in the App.
-      </p>
-      <p>
-        This includes, but is not limited to, any attempt to share, request,
-        create, promote, or otherwise facilitate CSAM or CSAE‑related activity
-        through NūrRing.
-      </p>
-    </section>
+        <h2>1. Zero tolerance for CSAE and CSAM</h2>
+        <p>
+          NūrRing has a <strong>zero‑tolerance policy</strong> towards
+          <strong>Child Sexual Abuse and Exploitation (CSAE)</strong> and
+          <strong>Child Sexual Abuse Material (CSAM)</strong>. Any content or
+          behaviour that sexually exploits, abuses, endangers, or targets
+          children is strictly prohibited in the App.
+        </p>
 
-    <section>
-      <h2>2. Prohibited content and behaviour</h2>
-      <p>
-        Users must not use NūrRing to engage in, promote, or facilitate any of
-        the following:
-      </p>
-      <ul>
-        <li>
-          Child sexual abuse or exploitation in any form, including grooming or
-          solicitation of minors.
-        </li>
-        <li>
-          Creation, possession, distribution, or sharing of CSAM, including
-          images, videos, text, links, or any other content that depicts or
-          describes the sexual exploitation or abuse of children.
-        </li>
-        <li>
-          Requests for explicit or sexual content involving children, or any
-          attempt to contact children for sexual purposes.
-        </li>
-        <li>
-          Harassment, bullying, or threats towards children, or encouraging
-          others to harm children.
-        </li>
-        <li>
-          Any other behaviour that endangers the safety, privacy, or wellbeing
-          of children.
-        </li>
-      </ul>
-      <p>
-        NūrRing is a dhikr and wellbeing app, not a dating or explicit‑content
-        platform. Any attempt to repurpose the app for CSAE‑related behaviour
-        is a serious violation of these standards and of our
-        <a href="./terms.html">Terms &amp; Conditions</a>.
-      </p>
-    </section>
+        <h2>2. Prohibited content and behaviour</h2>
+        <p>Users must not use NūrRing to engage in, promote, or facilitate:</p>
+        <ul>
+          <li>Child sexual abuse or exploitation in any form.</li>
+          <li>Creation, possession, distribution, or sharing of CSAM.</li>
+          <li>Requests for explicit or sexual content involving children.</li>
+          <li>Grooming, solicitation, harassment, or threats involving minors.</li>
+          <li>
+            Any behaviour that endangers the safety, privacy, or wellbeing of children.
+          </li>
+        </ul>
+        <p>
+          NūrRing is a dhikr and wellbeing app, not a dating or explicit‑content
+          platform. Any attempt to use the app for CSAE‑related behaviour is a
+          serious violation of these standards and of our
+          <a href="./terms.html">Terms &amp; Conditions</a>.
+        </p>
 
-    <section>
-      <h2>3. User reporting and in‑app feedback</h2>
-      <p>
-        NūrRing provides mechanisms for users to contact support and raise
-        concerns about content or behaviour in the App. Users who encounter
-        anything they believe may relate to CSAE or CSAM should:
-      </p>
-      <ul>
-        <li>
-          Use any in‑app feedback or support options to contact the developer;
-          and/or
-        </li>
-        <li>
-          Email the dedicated child safety contact:
-          <a href="mailto:tomiogunnorin@gmail.com">tomiogunnorin@gmail.com</a>.
-        </li>
-      </ul>
-      <p>
-        Reports relating to CSAE, CSAM, or other serious child safety concerns
-        are treated with the highest priority and will be reviewed and acted on
-        as quickly as possible.
-      </p>
-    </section>
+        <h2>3. Reporting concerns</h2>
+        <p>
+          NūrRing provides ways for users to contact support and raise concerns
+          about content or behaviour in the App. If you believe any content or
+          activity may relate to CSAE or CSAM, please report it immediately via
+          in‑app support options or by email.
+        </p>
+        <p>
+          <strong>Child safety contact:</strong>
+          <a href="mailto:support@nurring.app">support@nurring.app</a>
+        </p>
 
-    <section>
-      <h2>4. Handling and reporting CSAM</h2>
-      <p>
-        If we become aware of any suspected or confirmed CSAM or CSAE activity
-        in connection with NūrRing, we will:
-      </p>
-      <ul>
-        <li>Immediately remove or disable access to the offending content.</li>
-        <li>
-          Take appropriate action against the relevant account(s), which may
-          include suspension or permanent ban.
-        </li>
-        <li>
-          Report the matter to the appropriate authorities in line with
-          applicable law and guidance. This may include law enforcement and
-          national or regional child protection organisations.
-        </li>
-      </ul>
-      <p>
-        We will cooperate with lawful investigations and orders from competent
-        authorities in relation to child safety and CSAE / CSAM.
-      </p>
-    </section>
+        <h2>4. Handling and reporting CSAM</h2>
+        <p>
+          If we become aware of suspected or confirmed CSAM or CSAE activity in
+          connection with NūrRing, we may remove the content, suspend or
+          terminate relevant accounts, and report the matter to the appropriate
+          authorities in line with applicable law. We will cooperate with
+          lawful investigations and requests from competent authorities
+          relating to child safety.
+        </p>
 
-    <section>
-      <h2>5. Compliance with child safety laws</h2>
-      <p>
-        NūrRing is operated with the intention to comply with all applicable
-        child safety and child protection laws, as well as the
-        <a
-          href="https://support.google.com/googleplay/android-developer/answer/14747720"
-          target="_blank"
-          rel="noopener noreferrer"
-          >Google Play Developer Programme Policies on child safety and
-          CSAE</a
-        >.
-      </p>
-      <p>
-        This includes obligations to report confirmed CSAM to relevant
-        authorities, comply with lawful requests for information, and adjust
-        our practices as child protection laws and platform policies evolve.
-      </p>
-    </section>
+        <h2>5. Compliance</h2>
+        <p>
+          NūrRing is operated with the intention to comply with applicable
+          child safety and child protection laws, as well as Google Play
+          policies on child safety and CSAE.
+        </p>
 
-    <section>
-      <h2>6. Age‑appropriate use and safeguards</h2>
-      <p>
-        NūrRing is designed as a dhikr and wellbeing tool for a general
-        audience. It does not contain sexual content and is not intended for
-        dating, adult content, or explicit interactions.
-      </p>
-      <p>
-        We expect all users to act respectfully, and we reserve the right to
-        restrict or remove access where behaviour poses risks to children or
-        violates these safety standards.
-      </p>
-    </section>
-
-    <section>
-      <h2>7. Child safety point of contact</h2>
-      <p>
-        For issues specifically related to child safety, CSAE, or CSAM in
-        connection with NūrRing, the designated point of contact is:
-      </p>
-      <p>
-        <strong>Name:</strong> tomi ogunnorin<br />
-        <strong>Email:</strong>
-        <a href="mailto:tomiogunnorin@gmail.com">tomiogunnorin@gmail.com</a>
-      </p>
-      <p>
-        This contact is responsible for receiving child safety‑related
-        notifications from Google Play and from relevant authorities, and for
-        coordinating any necessary response.
-      </p>
-    </section>
-
-    <section>
-      <h2>8. Updates to these standards</h2>
-      <p>
-        We may update these Child Safety Standards from time to time to reflect
-        changes in law, best practice, or Google Play policies. The latest
-        version will always be available on this page.
-      </p>
-    </section>
+        <h2>6. Updates</h2>
+        <p>
+          We may update these Child Safety Standards from time to time to
+          reflect changes in law, best practice, or platform policy. The latest
+          version will always be available on this page.
+        </p>
+      </section>
+    </main>
   </body>
 </html>
